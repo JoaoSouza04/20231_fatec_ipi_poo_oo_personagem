@@ -1,11 +1,11 @@
 public class Personagem {
-    private String nome;
-    private int energia;
-    private int fome;
-    private int sono;
+    String nome;
+    int energia;
+    int fome;
+    int sono;
 
     void cacar() {
-        system.out.printl(nome + " cacando");
+        System.out.println(nome + " cacando");
     }
 
     void comer() {
